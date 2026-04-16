@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EY Upstream Oil & Gas KPI Dashboard</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="boot-fallback">
+        <strong>EY Oil & Gas KPI Dashboard</strong>
+        <span>Starting local dashboard...</span>
+      </div>
+    </div>
+    <script>
+      window.addEventListener("error", function (event) {
+        var root = document.getElementById("root");
+        if (root) {
+          root.innerHTML = '<div class="boot-fallback error"><strong>Dashboard script error</strong><span>' +
+            String(event.message || "Unknown browser error") + '</span></div>';
+        }
+      });
+      window.addEventListener("unhandledrejection", function (event) {
+        var root = document.getElementById("root");
+        if (root) {
+          var reason = event.reason && event.reason.message ? event.reason.message : event.reason;
+          root.innerHTML = '<div class="boot-fallback error"><strong>Dashboard loading error</strong><span>' +
+            String(reason || "Unknown async error") + '</span></div>';
+        }
+      });
+    </script>
+    <script type="module" src="./src/workbench.js"></script>
+  </body>
+</html>
