@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-04-17T00:00:00.000Z",
+  "diagnostics": [
+    { "sheetName": "S1_Production", "type": "data_table", "headerRow": 3, "rows": 7, "columns": 18 },
+    { "sheetName": "S2_Reservoir_Well", "type": "data_table", "headerRow": 3, "rows": 7, "columns": 18 },
+    { "sheetName": "S3_Operational_Eff", "type": "data_table", "headerRow": 3, "rows": 7, "columns": 21 },
+    { "sheetName": "S4_Lifting_Costs", "type": "data_table", "headerRow": 3, "rows": 7, "columns": 20 },
+    { "sheetName": "S6_HSE", "type": "data_table", "headerRow": 3, "rows": 7, "columns": 19 },
+    { "sheetName": "S7_Asset_Integrity", "type": "data_table", "headerRow": 3, "rows": 7, "columns": 19 },
+    { "sheetName": "S8_Financial", "type": "data_table", "headerRow": 3, "rows": 7, "columns": 19 },
+    { "sheetName": "S9_ESG_Environmental", "type": "data_table", "headerRow": 3, "rows": 7, "columns": 17 }
+  ],
+  "tables": {
+    "S1_Production": { "domain": "Production Performance", "rows": [
+      { "Company": "Saudi Aramco", "Gross Oil Production (bopd)": 5400189.2, "Working Interest (%)": 1, "Royalty Rate (%)": 0.15, "Govt Share (%)": 0, "Net Oil Production (bopd)": 4590160.82, "Actual Production (bopd)": 5400189.2, "MER / Nameplate (bopd)": 5400000, "Producing Hours": 7884, "Total Calendar Hours": 8760 },
+      { "Company": "ExxonMobil", "Gross Oil Production (bopd)": 650005.7, "Working Interest (%)": 0.85, "Royalty Rate (%)": 0.18, "Govt Share (%)": 0.05, "Net Oil Production (bopd)": 430401.27, "Actual Production (bopd)": 650005.7, "MER / Nameplate (bopd)": 715000, "Producing Hours": 8760, "Total Calendar Hours": 8760 },
+      { "Company": "Shell", "Gross Oil Production (bopd)": 820007.5, "Working Interest (%)": 0.8, "Royalty Rate (%)": 0.2, "Govt Share (%)": 0.05, "Net Oil Production (bopd)": 498564.56, "Actual Production (bopd)": 820007.5, "MER / Nameplate (bopd)": 820000, "Producing Hours": 7884, "Total Calendar Hours": 8760 },
+      { "Company": "BP", "Gross Oil Production (bopd)": 780002.6, "Working Interest (%)": 0.78, "Royalty Rate (%)": 0.22, "Govt Share (%)": 0.04, "Net Oil Production (bopd)": 455571.44, "Actual Production (bopd)": 780002.6, "MER / Nameplate (bopd)": 780000, "Producing Hours": 7884, "Total Calendar Hours": 8760 },
+      { "Company": "TotalEnergies", "Gross Oil Production (bopd)": 690007.5, "Working Interest (%)": 0.82, "Royalty Rate (%)": 0.19, "Govt Share (%)": 0.06, "Net Oil Production (bopd)": 430804.8, "Actual Production (bopd)": 690007.5, "MER / Nameplate (bopd)": 759000, "Producing Hours": 8760, "Total Calendar Hours": 8760 },
+      { "Company": "Chevron", "Gross Oil Production (bopd)": 529987.9, "Working Interest (%)": 0.88, "Royalty Rate (%)": 0.17, "Govt Share (%)": 0.03, "Net Oil Production (bopd)": 375490.07, "Actual Production (bopd)": 529987.9, "MER / Nameplate (bopd)": 583000, "Producing Hours": 7884, "Total Calendar Hours": 8760 },
+      { "Company": "ADNOC", "Gross Oil Production (bopd)": 3199788.4, "Working Interest (%)": 1, "Royalty Rate (%)": 0.12, "Govt Share (%)": 0, "Net Oil Production (bopd)": 2815813.79, "Actual Production (bopd)": 3199788.4, "MER / Nameplate (bopd)": 3520000, "Producing Hours": 7884, "Total Calendar Hours": 8760 }
+    ] },
+    "S2_Reservoir_Well": { "domain": "Reservoir & Well Performance", "rows": [
+      { "Company": "Saudi Aramco", "OOIP (MMbbl)": 99929.7, "Cumulative Np (MMbbl)": 39971.88, "Annual Production (MMboe)": 1971, "PDP Reserves (MMboe)": 26214.3 },
+      { "Company": "ExxonMobil", "OOIP (MMbbl)": 9893.3, "Cumulative Np (MMbbl)": 3957.32, "Annual Production (MMboe)": 237.25, "PDP Reserves (MMboe)": 2040.3 },
+      { "Company": "Shell", "OOIP (MMbbl)": 4728.9, "Cumulative Np (MMbbl)": 945.78, "Annual Production (MMboe)": 299.3, "PDP Reserves (MMboe)": 5058.2 },
+      { "Company": "BP", "OOIP (MMbbl)": 6291.9, "Cumulative Np (MMbbl)": 1258.38, "Annual Production (MMboe)": 284.7, "PDP Reserves (MMboe)": 4697.6 },
+      { "Company": "TotalEnergies", "OOIP (MMbbl)": 4986.6, "Cumulative Np (MMbbl)": 997.32, "Annual Production (MMboe)": 251.85, "PDP Reserves (MMboe)": 3979.2 },
+      { "Company": "Chevron", "OOIP (MMbbl)": 9517.7, "Cumulative Np (MMbbl)": 1903.54, "Annual Production (MMboe)": 193.45, "PDP Reserves (MMboe)": 2263.4 },
+      { "Company": "ADNOC", "OOIP (MMbbl)": 63188.8, "Cumulative Np (MMbbl)": 12637.76, "Annual Production (MMboe)": 1168, "PDP Reserves (MMboe)": 24294.4 }
+    ] },
+    "S3_Operational_Eff": { "domain": "Operational Efficiency", "rows": [
+      { "Company": "Saudi Aramco", "OEE Availability (%)": 0.9, "OEE Performance (%)": 0.9, "OEE Quality (%)": 1 },
+      { "Company": "ExxonMobil", "OEE Availability (%)": 0.9, "OEE Performance (%)": 0.9, "OEE Quality (%)": 1 },
+      { "Company": "Shell", "OEE Availability (%)": 0.9, "OEE Performance (%)": 1, "OEE Quality (%)": 1 },
+      { "Company": "BP", "OEE Availability (%)": 0.9, "OEE Performance (%)": 0.9, "OEE Quality (%)": 1 },
+      { "Company": "TotalEnergies", "OEE Availability (%)": 0.9, "OEE Performance (%)": 1, "OEE Quality (%)": 1 },
+      { "Company": "Chevron", "OEE Availability (%)": 1, "OEE Performance (%)": 1, "OEE Quality (%)": 1 },
+      { "Company": "ADNOC", "OEE Availability (%)": 0.9, "OEE Performance (%)": 1, "OEE Quality (%)": 1 }
+    ] },
+    "S4_Lifting_Costs": { "domain": "Cost & Financial Metrics", "rows": [
+      { "Company": "Saudi Aramco", "Total Opex ($M)": 13363.4, "Total Production (MMboe)": 1971, "Lifting Cost ($/BOE)": 6.78001014713344, "DD&A per BOE ($/BOE)": 2.13, "Exploration Cost per BOE ($/BOE)": 1.8, "Unit Technical Cost ($/BOE)": 10.7100101471334, "Tax Rate (%)": 0.3, "Realized Oil Price ($/bbl)": 72.5, "Royalty Rate (%)": 0.15, "Production Taxes ($/BOE)": 1.6, "Transport Cost ($/BOE)": 2.1, "Processing Cost ($/BOE)": 0.5 },
+      { "Company": "ExxonMobil", "Total Opex ($M)": 5323.9, "Total Production (MMboe)": 237.25, "Lifting Cost ($/BOE)": 22.4400421496312, "DD&A per BOE ($/BOE)": 7.44, "Exploration Cost per BOE ($/BOE)": 1.68, "Unit Technical Cost ($/BOE)": 31.5600421496312, "Tax Rate (%)": 0.3, "Realized Oil Price ($/bbl)": 69.4, "Royalty Rate (%)": 0.18, "Production Taxes ($/BOE)": 1.1, "Transport Cost ($/BOE)": 3.2, "Processing Cost ($/BOE)": 1.8 },
+      { "Company": "Shell", "Total Opex ($M)": 8444.7, "Total Production (MMboe)": 299.3, "Lifting Cost ($/BOE)": 28.2148346140996, "DD&A per BOE ($/BOE)": 7.16, "Exploration Cost per BOE ($/BOE)": 7.7, "Unit Technical Cost ($/BOE)": 43.0748346140996, "Tax Rate (%)": 0.2, "Realized Oil Price ($/bbl)": 71.8, "Royalty Rate (%)": 0.2, "Production Taxes ($/BOE)": 1.7, "Transport Cost ($/BOE)": 2.9, "Processing Cost ($/BOE)": 1.7 },
+      { "Company": "BP", "Total Opex ($M)": 5739.6, "Total Production (MMboe)": 284.7, "Lifting Cost ($/BOE)": 20.1601685985248, "DD&A per BOE ($/BOE)": 12.18, "Exploration Cost per BOE ($/BOE)": 6.44, "Unit Technical Cost ($/BOE)": 38.7801685985248, "Tax Rate (%)": 0.4, "Realized Oil Price ($/bbl)": 74.8, "Royalty Rate (%)": 0.22, "Production Taxes ($/BOE)": 3, "Transport Cost ($/BOE)": 0.8, "Processing Cost ($/BOE)": 1 },
+      { "Company": "TotalEnergies", "Total Opex ($M)": 2927.8, "Total Production (MMboe)": 251.85, "Lifting Cost ($/BOE)": 11.6251737145126, "DD&A per BOE ($/BOE)": 10.62, "Exploration Cost per BOE ($/BOE)": 3.88, "Unit Technical Cost ($/BOE)": 26.1251737145126, "Tax Rate (%)": 0.3, "Realized Oil Price ($/bbl)": 85.2, "Royalty Rate (%)": 0.19, "Production Taxes ($/BOE)": 1.1, "Transport Cost ($/BOE)": 3.3, "Processing Cost ($/BOE)": 1.1 },
+      { "Company": "Chevron", "Total Opex ($M)": 829.9, "Total Production (MMboe)": 193.45, "Lifting Cost ($/BOE)": 4.2899974153528, "DD&A per BOE ($/BOE)": 13.64, "Exploration Cost per BOE ($/BOE)": 6.38, "Unit Technical Cost ($/BOE)": 24.3099974153528, "Tax Rate (%)": 0.3, "Realized Oil Price ($/bbl)": 72.3, "Royalty Rate (%)": 0.17, "Production Taxes ($/BOE)": 2.6, "Transport Cost ($/BOE)": 1, "Processing Cost ($/BOE)": 1.1 },
+      { "Company": "ADNOC", "Total Opex ($M)": 2394.4, "Total Production (MMboe)": 1168, "Lifting Cost ($/BOE)": 2.05, "DD&A per BOE ($/BOE)": 6.95, "Exploration Cost per BOE ($/BOE)": 1.15, "Unit Technical Cost ($/BOE)": 10.15, "Tax Rate (%)": 0.3, "Realized Oil Price ($/bbl)": 87.9, "Royalty Rate (%)": 0.12, "Production Taxes ($/BOE)": 1.6, "Transport Cost ($/BOE)": 1.8, "Processing Cost ($/BOE)": 1.9 }
+    ] },
+    "S6_HSE": { "domain": "HSE / ESG", "rows": [
+      { "Company": "Saudi Aramco", "Recordable Incidents": 4, "Man-Hours Worked": 510759432, "Gas Flared Daily (mmscfd)": 0, "Total Production (MMboe)": 1971 },
+      { "Company": "ExxonMobil", "Recordable Incidents": 1, "Man-Hours Worked": 53528670, "Gas Flared Daily (mmscfd)": 0, "Total Production (MMboe)": 237.25 },
+      { "Company": "Shell", "Recordable Incidents": 22, "Man-Hours Worked": 42716760, "Gas Flared Daily (mmscfd)": 0, "Total Production (MMboe)": 299.3 },
+      { "Company": "BP", "Recordable Incidents": 21, "Man-Hours Worked": 126879118, "Gas Flared Daily (mmscfd)": 96.4158, "Total Production (MMboe)": 284.7 },
+      { "Company": "TotalEnergies", "Recordable Incidents": 15, "Man-Hours Worked": 61248043, "Gas Flared Daily (mmscfd)": 0, "Total Production (MMboe)": 251.85 },
+      { "Company": "Chevron", "Recordable Incidents": 8, "Man-Hours Worked": 63792668, "Gas Flared Daily (mmscfd)": 0, "Total Production (MMboe)": 193.45 },
+      { "Company": "ADNOC", "Recordable Incidents": 16, "Man-Hours Worked": 376116000, "Gas Flared Daily (mmscfd)": 0, "Total Production (MMboe)": 1168 }
+    ] },
+    "S7_Asset_Integrity": { "domain": "Asset Integrity", "rows": [
+      { "Company": "Saudi Aramco", "SCE Items Due for Test": 169, "SCE Items Tested & Passed": 169 },
+      { "Company": "ExxonMobil", "SCE Items Due for Test": 137, "SCE Items Tested & Passed": 137 },
+      { "Company": "Shell", "SCE Items Due for Test": 244, "SCE Items Tested & Passed": 219 },
+      { "Company": "BP", "SCE Items Due for Test": 310, "SCE Items Tested & Passed": 310 },
+      { "Company": "TotalEnergies", "SCE Items Due for Test": 351, "SCE Items Tested & Passed": 351 },
+      { "Company": "Chevron", "SCE Items Due for Test": 215, "SCE Items Tested & Passed": 215 },
+      { "Company": "ADNOC", "SCE Items Due for Test": 172, "SCE Items Tested & Passed": 154 }
+    ] },
+    "S8_Financial": { "domain": "Cost & Financial Metrics", "rows": [
+      { "Company": "Saudi Aramco", "EBITDA ($M)": 118053.09, "Total Production (MMboe)": 1971, "Netback ($/BOE)": 59.9, "F&D Cost ($/BOE)": 8.07500422797227 },
+      { "Company": "ExxonMobil", "EBITDA ($M)": 6987.9, "Total Production (MMboe)": 237.25, "Netback ($/BOE)": 29.95, "F&D Cost ($/BOE)": 18.7997002763078 },
+      { "Company": "Shell", "EBITDA ($M)": 10753.839, "Total Production (MMboe)": 299.3, "Netback ($/BOE)": 34.23, "F&D Cost ($/BOE)": 32.8909880630562 },
+      { "Company": "BP", "EBITDA ($M)": 16111.768, "Total Production (MMboe)": 284.7, "Netback ($/BOE)": 56.09, "F&D Cost ($/BOE)": 43.1455758853019 },
+      { "Company": "TotalEnergies", "EBITDA ($M)": 10129.478, "Total Production (MMboe)": 251.85, "Netback ($/BOE)": 38.12, "F&D Cost ($/BOE)": 32.4034085702941 },
+      { "Company": "Chevron", "EBITDA ($M)": 6625.676, "Total Production (MMboe)": 193.45, "Netback ($/BOE)": 31.65, "F&D Cost ($/BOE)": 16.4998707676402 },
+      { "Company": "ADNOC", "EBITDA ($M)": 71691.8, "Total Production (MMboe)": 1168, "Netback ($/BOE)": 60.78, "F&D Cost ($/BOE)": 7.54545454545455 }
+    ] },
+    "S9_ESG_Environmental": { "domain": "HSE / ESG", "rows": [
+      { "Company": "Saudi Aramco", "Total Scope 1 Emissions (ktCO2e)": 4.5, "Total Production (MMboe)": 1971, "CH4 Emitted (kt CH4)": 125.42, "Total Gas Produced (MMscf)": 1555316, "Gas Utilized (mmscfd)": 7483.32, "Total Gas Produced (mmscfd)": 6126.84 },
+      { "Company": "ExxonMobil", "Total Scope 1 Emissions (ktCO2e)": 11.2, "Total Production (MMboe)": 237.25, "CH4 Emitted (kt CH4)": 66.62, "Total Gas Produced (MMscf)": 289137, "Gas Utilized (mmscfd)": 860.665, "Total Gas Produced (mmscfd)": 521.82 },
+      { "Company": "Shell", "Total Scope 1 Emissions (ktCO2e)": 14.1, "Total Production (MMboe)": 299.3, "CH4 Emitted (kt CH4)": 118.59, "Total Gas Produced (MMscf)": 285951, "Gas Utilized (mmscfd)": 247.082, "Total Gas Produced (mmscfd)": 914.3 },
+      { "Company": "BP", "Total Scope 1 Emissions (ktCO2e)": 8.4, "Total Production (MMboe)": 284.7, "CH4 Emitted (kt CH4)": 45.74, "Total Gas Produced (MMscf)": 141809, "Gas Utilized (mmscfd)": 602.784, "Total Gas Produced (mmscfd)": 259.35 },
+      { "Company": "TotalEnergies", "Total Scope 1 Emissions (ktCO2e)": 9.7, "Total Production (MMboe)": 251.85, "CH4 Emitted (kt CH4)": 33.57, "Total Gas Produced (MMscf)": 116556, "Gas Utilized (mmscfd)": 477.618, "Total Gas Produced (mmscfd)": 520.95 },
+      { "Company": "Chevron", "Total Scope 1 Emissions (ktCO2e)": 7.5, "Total Production (MMboe)": 193.45, "CH4 Emitted (kt CH4)": 37.13, "Total Gas Produced (MMscf)": 251156, "Gas Utilized (mmscfd)": 715.452, "Total Gas Produced (mmscfd)": 572.506 },
+      { "Company": "ADNOC", "Total Scope 1 Emissions (ktCO2e)": 21.1, "Total Production (MMboe)": 1168, "CH4 Emitted (kt CH4)": 230.53, "Total Gas Produced (MMscf)": 1263893, "Gas Utilized (mmscfd)": 1390.752, "Total Gas Produced (mmscfd)": 3530.88 }
+    ] }
+  }
+}
